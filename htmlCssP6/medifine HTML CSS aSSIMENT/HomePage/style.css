@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.header-left img{
+    width: 200px;
+    height: 60px;
+}
+.header-right ul{
+          display: flex;
+          align-items: center;
+}
+.header-right ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.header-right ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* hero section */
+.hero-section{
+    margin-top: 10rem;
+    margin-left:6% ;
+    
+}
+.hero-left-sec{
+    width: 40%;
+}
+.topAngle {
+    width: 25px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.hero-left-sec h1 {
+    font-size: 6rem;
+}
+.hero-left-sec button {
+    color: white;
+    border: none;
+    padding: 25px 50px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+}
+ .hero-left-sec p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 24px;
+}
+.bottomAngle {
+    width: 25px;
+    position: absolute;
+    left: 52rem;
+}
+.stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+}
+
+.mouse {
+    position: absolute;
+    left: 56rem;
+     width: 40px;
+}
+.hero-right-sec{
+    margin-right: 5%;
+}
+
+.yellowBox {
+    width: 30%;
+    bottom: 50px;
+}
+.greenBox, .yellowBox {
+    position: absolute;
+    right: 0;
+}
+.doctor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
